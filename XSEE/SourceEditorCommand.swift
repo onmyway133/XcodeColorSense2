@@ -26,7 +26,12 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
       return
     }
 
-    let newLine = process(line: line)
+    guard let hex = findHex(string: line) else {
+      completionHandler(nil)
+      return
+    }
+
+    let newLine = process(line: line, hex: hex)
 
     invocation.buffer.lines.replaceObject(at: lineNumber, with: newLine)
 
@@ -35,8 +40,21 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
 
   // MARK: - Helper
 
-  func process(line: String) -> String {
-    return line
+  func process(line: String, hex: String) -> String {
+    guard let name = Farge.name(hex: hex) else {
+      return line
+    }
+
+    let newLine = line.appending(" // color: \(name)")
+    return newLine
   }
 
+  func findHex(string: String) -> String? {
+    let pattern = "\"#?[A-Fa-f0-9]{6}\""
+    guard let range = Regex.check(string: string, pattern: pattern) else {
+      return nil
+    }
+
+    return (string as NSString).substring(with: range)
+  }
 }

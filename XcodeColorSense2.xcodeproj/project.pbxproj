@@ -15,6 +15,7 @@
 		D21210A01EB28782003DA70E /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D212109F1EB28782003DA70E /* SourceEditorExtension.swift */; };
 		D21210A21EB28782003DA70E /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21210A11EB28782003DA70E /* SourceEditorCommand.swift */; };
 		D21210A61EB28782003DA70E /* XSEE.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D21210981EB28782003DA70E /* XSEE.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2606E7C1EB2907B00AC2F68 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2606E7B1EB2907B00AC2F68 /* Regex.swift */; };
 		F0F65EEFE02A2A4A978EFB6C /* Pods_XSEE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A43917291A820ED0C8751E /* Pods_XSEE.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		D212109F1EB28782003DA70E /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
 		D21210A11EB28782003DA70E /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
 		D21210A31EB28782003DA70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2606E7B1EB2907B00AC2F68 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				D21210A11EB28782003DA70E /* SourceEditorCommand.swift */,
 				D21210A31EB28782003DA70E /* Info.plist */,
 				D212109D1EB28782003DA70E /* Supporting Files */,
+				D2606E7B1EB2907B00AC2F68 /* Regex.swift */,
 			);
 			path = XSEE;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			files = (
 				D21210A01EB28782003DA70E /* SourceEditorExtension.swift in Sources */,
 				D21210A21EB28782003DA70E /* SourceEditorCommand.swift in Sources */,
+				D2606E7C1EB2907B00AC2F68 /* Regex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
