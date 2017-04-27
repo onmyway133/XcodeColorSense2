@@ -40,6 +40,8 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
   // MARK: - Helper
 
   func process(line: String, hex: String) -> String {
+    let hex = hex.replacingOccurrences(of: "\"", with: "")
+
     guard let name = name(hex: hex) else {
       return line
     }
