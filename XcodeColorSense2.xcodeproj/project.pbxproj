@@ -16,7 +16,6 @@
 		D21210A21EB28782003DA70E /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21210A11EB28782003DA70E /* SourceEditorCommand.swift */; };
 		D21210A61EB28782003DA70E /* XSEE.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D21210981EB28782003DA70E /* XSEE.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D2606E7C1EB2907B00AC2F68 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2606E7B1EB2907B00AC2F68 /* Regex.swift */; };
-		F0F65EEFE02A2A4A978EFB6C /* Pods_XSEE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A43917291A820ED0C8751E /* Pods_XSEE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +43,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7E91CD133C94AE1EB021C39E /* Pods-XSEE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSEE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XSEE/Pods-XSEE.debug.xcconfig"; sourceTree = "<group>"; };
-		C4E93DA606BC13A364ECD2BB /* Pods-XSEE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSEE.release.xcconfig"; path = "Pods/Target Support Files/Pods-XSEE/Pods-XSEE.release.xcconfig"; sourceTree = "<group>"; };
-		C5A43917291A820ED0C8751E /* Pods_XSEE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XSEE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21210821EB28756003DA70E /* XcodeColorSense2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeColorSense2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21210851EB28756003DA70E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D21210871EB28756003DA70E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,22 +71,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D212109B1EB28782003DA70E /* Cocoa.framework in Frameworks */,
-				F0F65EEFE02A2A4A978EFB6C /* Pods_XSEE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C4326BDD85A0512382712BB4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7E91CD133C94AE1EB021C39E /* Pods-XSEE.debug.xcconfig */,
-				C4E93DA606BC13A364ECD2BB /* Pods-XSEE.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		D21210791EB28756003DA70E = {
 			isa = PBXGroup;
 			children = (
@@ -98,7 +84,6 @@
 				D212109C1EB28782003DA70E /* XSEE */,
 				D21210991EB28782003DA70E /* Frameworks */,
 				D21210831EB28756003DA70E /* Products */,
-				C4326BDD85A0512382712BB4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				D212109A1EB28782003DA70E /* Cocoa.framework */,
-				C5A43917291A820ED0C8751E /* Pods_XSEE.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -178,11 +162,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D21210A71EB28782003DA70E /* Build configuration list for PBXNativeTarget "XSEE" */;
 			buildPhases = (
-				565055BB27635F514F2C8668 /* [CP] Check Pods Manifest.lock */,
 				D21210941EB28782003DA70E /* Sources */,
 				D21210951EB28782003DA70E /* Frameworks */,
 				D21210961EB28782003DA70E /* Resources */,
-				23C319117135AF28A40605C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,39 +234,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		23C319117135AF28A40605C7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XSEE/Pods-XSEE-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		565055BB27635F514F2C8668 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D212107E1EB28756003DA70E /* Sources */ = {
@@ -456,7 +405,6 @@
 		};
 		D21210A81EB28782003DA70E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E91CD133C94AE1EB021C39E /* Pods-XSEE.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = XSEE/XSEE.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -475,7 +423,6 @@
 		};
 		D21210A91EB28782003DA70E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4E93DA606BC13A364ECD2BB /* Pods-XSEE.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = XSEE/XSEE.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";

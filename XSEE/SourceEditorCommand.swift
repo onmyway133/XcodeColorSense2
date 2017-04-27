@@ -8,7 +8,6 @@
 
 import Foundation
 import XcodeKit
-import Farge
 
 class SourceEditorCommand: NSObject, XCSourceEditorCommand {
 
