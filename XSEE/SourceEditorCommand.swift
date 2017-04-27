@@ -40,7 +40,7 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
   // MARK: - Helper
 
   func process(line: String, hex: String) -> String {
-    guard let name = Farge.name(hex: hex) else {
+    guard let name = name(hex: hex) else {
       return line
     }
 
