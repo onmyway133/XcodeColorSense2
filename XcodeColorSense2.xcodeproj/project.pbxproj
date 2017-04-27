@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D21210861EB28756003DA70E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21210851EB28756003DA70E /* AppDelegate.swift */; };
+		D21210881EB28756003DA70E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21210871EB28756003DA70E /* ViewController.swift */; };
+		D212108A1EB28756003DA70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D21210891EB28756003DA70E /* Assets.xcassets */; };
+		D212108D1EB28756003DA70E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D212108B1EB28756003DA70E /* Main.storyboard */; };
+		D212109B1EB28782003DA70E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D212109A1EB28782003DA70E /* Cocoa.framework */; };
+		D21210A01EB28782003DA70E /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D212109F1EB28782003DA70E /* SourceEditorExtension.swift */; };
+		D21210A21EB28782003DA70E /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21210A11EB28782003DA70E /* SourceEditorCommand.swift */; };
+		D21210A61EB28782003DA70E /* XSEE.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D21210981EB28782003DA70E /* XSEE.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D21210A41EB28782003DA70E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D212107A1EB28756003DA70E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21210971EB28782003DA70E;
+			remoteInfo = XSEE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D21210AA1EB28782003DA70E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D21210A61EB28782003DA70E /* XSEE.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D21210821EB28756003DA70E /* XcodeColorSense2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeColorSense2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21210851EB28756003DA70E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D21210871EB28756003DA70E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D21210891EB28756003DA70E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D212108C1EB28756003DA70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D212108E1EB28756003DA70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D21210981EB28782003DA70E /* XSEE.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XSEE.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D212109A1EB28782003DA70E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D212109E1EB28782003DA70E /* XSEE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XSEE.entitlements; sourceTree = "<group>"; };
+		D212109F1EB28782003DA70E /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		D21210A11EB28782003DA70E /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		D21210A31EB28782003DA70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D212107F1EB28756003DA70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21210951EB28782003DA70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D212109B1EB28782003DA70E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D21210791EB28756003DA70E = {
+			isa = PBXGroup;
+			children = (
+				D21210841EB28756003DA70E /* XcodeColorSense2 */,
+				D212109C1EB28782003DA70E /* XSEE */,
+				D21210991EB28782003DA70E /* Frameworks */,
+				D21210831EB28756003DA70E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D21210831EB28756003DA70E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D21210821EB28756003DA70E /* XcodeColorSense2.app */,
+				D21210981EB28782003DA70E /* XSEE.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D21210841EB28756003DA70E /* XcodeColorSense2 */ = {
+			isa = PBXGroup;
+			children = (
+				D21210851EB28756003DA70E /* AppDelegate.swift */,
+				D21210871EB28756003DA70E /* ViewController.swift */,
+				D21210891EB28756003DA70E /* Assets.xcassets */,
+				D212108B1EB28756003DA70E /* Main.storyboard */,
+				D212108E1EB28756003DA70E /* Info.plist */,
+			);
+			path = XcodeColorSense2;
+			sourceTree = "<group>";
+		};
+		D21210991EB28782003DA70E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D212109A1EB28782003DA70E /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D212109C1EB28782003DA70E /* XSEE */ = {
+			isa = PBXGroup;
+			children = (
+				D212109F1EB28782003DA70E /* SourceEditorExtension.swift */,
+				D21210A11EB28782003DA70E /* SourceEditorCommand.swift */,
+				D21210A31EB28782003DA70E /* Info.plist */,
+				D212109D1EB28782003DA70E /* Supporting Files */,
+			);
+			path = XSEE;
+			sourceTree = "<group>";
+		};
+		D212109D1EB28782003DA70E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D212109E1EB28782003DA70E /* XSEE.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D21210811EB28756003DA70E /* XcodeColorSense2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21210911EB28756003DA70E /* Build configuration list for PBXNativeTarget "XcodeColorSense2" */;
+			buildPhases = (
+				D212107E1EB28756003DA70E /* Sources */,
+				D212107F1EB28756003DA70E /* Frameworks */,
+				D21210801EB28756003DA70E /* Resources */,
+				D21210AA1EB28782003DA70E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21210A51EB28782003DA70E /* PBXTargetDependency */,
+			);
+			name = XcodeColorSense2;
+			productName = XcodeColorSense2;
+			productReference = D21210821EB28756003DA70E /* XcodeColorSense2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D21210971EB28782003DA70E /* XSEE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21210A71EB28782003DA70E /* Build configuration list for PBXNativeTarget "XSEE" */;
+			buildPhases = (
+				D21210941EB28782003DA70E /* Sources */,
+				D21210951EB28782003DA70E /* Frameworks */,
+				D21210961EB28782003DA70E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XSEE;
+			productName = XSEE;
+			productReference = D21210981EB28782003DA70E /* XSEE.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D212107A1EB28756003DA70E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Fantageek;
+				TargetAttributes = {
+					D21210811EB28756003DA70E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					D21210971EB28782003DA70E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D212107D1EB28756003DA70E /* Build configuration list for PBXProject "XcodeColorSense2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D21210791EB28756003DA70E;
+			productRefGroup = D21210831EB28756003DA70E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D21210811EB28756003DA70E /* XcodeColorSense2 */,
+				D21210971EB28782003DA70E /* XSEE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D21210801EB28756003DA70E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D212108A1EB28756003DA70E /* Assets.xcassets in Resources */,
+				D212108D1EB28756003DA70E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21210961EB28782003DA70E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D212107E1EB28756003DA70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21210881EB28756003DA70E /* ViewController.swift in Sources */,
+				D21210861EB28756003DA70E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21210941EB28782003DA70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21210A01EB28782003DA70E /* SourceEditorExtension.swift in Sources */,
+				D21210A21EB28782003DA70E /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D21210A51EB28782003DA70E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D21210971EB28782003DA70E /* XSEE */;
+			targetProxy = D21210A41EB28782003DA70E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D212108B1EB28756003DA70E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D212108C1EB28756003DA70E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D212108F1EB28756003DA70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D21210901EB28756003DA70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D21210921EB28756003DA70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XcodeColorSense2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.XcodeColorSense2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D21210931EB28756003DA70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XcodeColorSense2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.XcodeColorSense2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D21210A81EB28782003DA70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XSEE/XSEE.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XSEE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.XcodeColorSense2.XSEE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D21210A91EB28782003DA70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XSEE/XSEE.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XSEE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.XcodeColorSense2.XSEE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D212107D1EB28756003DA70E /* Build configuration list for PBXProject "XcodeColorSense2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D212108F1EB28756003DA70E /* Debug */,
+				D21210901EB28756003DA70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21210911EB28756003DA70E /* Build configuration list for PBXNativeTarget "XcodeColorSense2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21210921EB28756003DA70E /* Debug */,
+				D21210931EB28756003DA70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D21210A71EB28782003DA70E /* Build configuration list for PBXNativeTarget "XSEE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21210A81EB28782003DA70E /* Debug */,
+				D21210A91EB28782003DA70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D212107A1EB28756003DA70E /* Project object */;
+}
