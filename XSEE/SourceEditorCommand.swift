@@ -47,8 +47,13 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
       return line
     }
 
-    let newLine = line.appending(" // color: \(name)")
-    return newLine
+    // Remove mark if needed
+    if let removedMark = findMarkAndRemove(string: line){
+      return removedMark
+    }
+
+    // Add mark
+    return line.appending(" // color: \(name)")
   }
 
   func findHex(string: String) -> String? {
@@ -58,5 +63,14 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
     }
 
     return (string as NSString).substring(with: range)
+  }
+
+  func findMarkAndRemove(string: String) -> String? {
+    let pattern = " \\/\\/ color: .*"
+    guard let range = Regex.check(string: string, pattern: pattern) else {
+      return nil
+    }
+
+    return (string as NSString).substring(to: range.location)
   }
 }
