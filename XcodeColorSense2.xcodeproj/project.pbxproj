@@ -16,12 +16,6 @@
 		D21210A21EB28782003DA70E /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21210A11EB28782003DA70E /* SourceEditorCommand.swift */; };
 		D21210A61EB28782003DA70E /* XSEE.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D21210981EB28782003DA70E /* XSEE.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D2606E7C1EB2907B00AC2F68 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2606E7B1EB2907B00AC2F68 /* Regex.swift */; };
-		D2606E841EB29C4F00AC2F68 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2606E7E1EB29C4F00AC2F68 /* Converter.swift */; };
-		D2606E851EB29C4F00AC2F68 /* Farge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2606E7F1EB29C4F00AC2F68 /* Farge.swift */; };
-		D2606E861EB29C4F00AC2F68 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2606E801EB29C4F00AC2F68 /* HSL.swift */; };
-		D2606E871EB29C4F00AC2F68 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2606E811EB29C4F00AC2F68 /* List.swift */; };
-		D2606E881EB29C4F00AC2F68 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2606E821EB29C4F00AC2F68 /* Parser.swift */; };
-		D2606E891EB29C4F00AC2F68 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2606E831EB29C4F00AC2F68 /* RGB.swift */; };
 		D266A6C01EB4BD0D009863D8 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D266A6BA1EB4BD0D009863D8 /* Converter.swift */; };
 		D266A6C11EB4BD0D009863D8 /* Farge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D266A6BB1EB4BD0D009863D8 /* Farge.swift */; };
 		D266A6C21EB4BD0D009863D8 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D266A6BC1EB4BD0D009863D8 /* HSL.swift */; };
@@ -305,17 +299,11 @@
 				D266A6C51EB4BD0D009863D8 /* RGB.swift in Sources */,
 				D21210A01EB28782003DA70E /* SourceEditorExtension.swift in Sources */,
 				D21210A21EB28782003DA70E /* SourceEditorCommand.swift in Sources */,
-				D2606E871EB29C4F00AC2F68 /* List.swift in Sources */,
 				D266A6C21EB4BD0D009863D8 /* HSL.swift in Sources */,
 				D266A6C31EB4BD0D009863D8 /* List.swift in Sources */,
-				D2606E841EB29C4F00AC2F68 /* Converter.swift in Sources */,
 				D266A6C41EB4BD0D009863D8 /* Parser.swift in Sources */,
 				D266A6C01EB4BD0D009863D8 /* Converter.swift in Sources */,
-				D2606E881EB29C4F00AC2F68 /* Parser.swift in Sources */,
-				D2606E861EB29C4F00AC2F68 /* HSL.swift in Sources */,
-				D2606E891EB29C4F00AC2F68 /* RGB.swift in Sources */,
 				D266A6C11EB4BD0D009863D8 /* Farge.swift in Sources */,
-				D2606E851EB29C4F00AC2F68 /* Farge.swift in Sources */,
 				D2606E7C1EB2907B00AC2F68 /* Regex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
