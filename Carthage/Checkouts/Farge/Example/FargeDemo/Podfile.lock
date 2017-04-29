@@ -1,0 +1,16 @@
+PODS:
+  - Farge (0.1.0)
+
+DEPENDENCIES:
+  - Farge (from `../../`)
+
+EXTERNAL SOURCES:
+  Farge:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Farge: db7cad37530ac5b0a238a20b2d8d623562802029
+
+PODFILE CHECKSUM: c8a4b5069be64fdbc9bc01b7e23ebb336c46a215
+
+COCOAPODS: 1.2.1
