@@ -8,7 +8,7 @@ All my apps use hex color now. But when browsing the source code, it's hard to k
 
 That's why I made [XcodeColorSense](https://github.com/onmyway133/XcodeColorSense), which shows us the color for a particular hex or rgb color. But from Xcode 8+ it is not possible to have Xcode plugin.
 
-So this is my 2nd attempt to make that available in Xcode, through Xcode Source Editor Extension. I used [Farge](github.com/onmyway133/Farge) to find name of a hex color
+So this is my 2nd attempt to make that available in Xcode, through Xcode Source Editor Extension. I used [Farge](https://github.com/onmyway133/Farge) to find name of a hex color
 
 I want to use framework in the extension, but Xcode keeps complaining about that http://stackoverflow.com/questions/43673353/how-to-use-framework-in-xcode-source-editor-extension
 
