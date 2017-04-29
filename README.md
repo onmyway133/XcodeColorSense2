@@ -22,7 +22,7 @@ I use [GifCapture](https://github.com/onmyway133/GifCapture) to capture the gif
 
 ## How to use
 
-- `Color Sense` is available in `Editor -> Color Sense -> Color Sense`
+- `Color Sense` is available in `Editor -> Color Sense -> Color Sense`. Click it to show color name, click it again to hide color name
 
 ![](Screenshots/editor.png)
 
