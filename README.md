@@ -19,6 +19,7 @@ I use [GifCapture](https://github.com/onmyway133/GifCapture) to capture the gif
 ## How to install
 
 - Follow my tutorial here [Install Xcode 8 Source Editor Extension](https://medium.com/@onmyway133/install-xcode-8-source-editor-extension-10c9849e33b0)
+- Use the built binary https://github.com/onmyway133/XcodeColorSense2/releases
 
 ## How to use
 
