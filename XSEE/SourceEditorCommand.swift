@@ -53,7 +53,9 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
     }
 
     // Add mark
-    return line.appending(" // color: \(name)")
+    let rgb = Converter().rgb(hex: hex)
+    let literal = "#colorLiteral(red: \(rgb.r/255), green: \(rgb.g/255), blue: \(rgb.b/255), alpha: 1.0)"
+    return line.appending(" // color: \(name)").appending(" \(literal)")
   }
 
   func findHex(string: String) -> String? {
