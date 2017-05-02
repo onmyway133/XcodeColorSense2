@@ -35,3 +35,7 @@ I use [GifCapture](https://github.com/onmyway133/GifCapture) to capture the gif
 ## Author
 
 Khoa Pham, onmyway133@gmail.com
+
+## Credit
+
+- Thanks [Chris](https://github.com/zenangst) for showing me `color literal`
