@@ -62,12 +62,6 @@
 		D21210A11EB28782003DA70E /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
 		D21210A31EB28782003DA70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2606E7B1EB2907B00AC2F68 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
-		D2606E7E1EB29C4F00AC2F68 /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
-		D2606E7F1EB29C4F00AC2F68 /* Farge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Farge.swift; sourceTree = "<group>"; };
-		D2606E801EB29C4F00AC2F68 /* HSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSL.swift; sourceTree = "<group>"; };
-		D2606E811EB29C4F00AC2F68 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
-		D2606E821EB29C4F00AC2F68 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		D2606E831EB29C4F00AC2F68 /* RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
 		D266A6BA1EB4BD0D009863D8 /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		D266A6BB1EB4BD0D009863D8 /* Farge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Farge.swift; sourceTree = "<group>"; };
 		D266A6BC1EB4BD0D009863D8 /* HSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSL.swift; sourceTree = "<group>"; };
@@ -138,7 +132,6 @@
 		D212109C1EB28782003DA70E /* XSEE */ = {
 			isa = PBXGroup;
 			children = (
-				D2606E7D1EB29C4F00AC2F68 /* Farge */,
 				D212109F1EB28782003DA70E /* SourceEditorExtension.swift */,
 				D21210A11EB28782003DA70E /* SourceEditorCommand.swift */,
 				D21210A31EB28782003DA70E /* Info.plist */,
@@ -155,19 +148,6 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
-		};
-		D2606E7D1EB29C4F00AC2F68 /* Farge */ = {
-			isa = PBXGroup;
-			children = (
-				D2606E7E1EB29C4F00AC2F68 /* Converter.swift */,
-				D2606E7F1EB29C4F00AC2F68 /* Farge.swift */,
-				D2606E801EB29C4F00AC2F68 /* HSL.swift */,
-				D2606E811EB29C4F00AC2F68 /* List.swift */,
-				D2606E821EB29C4F00AC2F68 /* Parser.swift */,
-				D2606E831EB29C4F00AC2F68 /* RGB.swift */,
-			);
-			path = Farge;
-			sourceTree = SOURCE_ROOT;
 		};
 		D266A6B91EB4BD0D009863D8 /* Sources */ = {
 			isa = PBXGroup;
