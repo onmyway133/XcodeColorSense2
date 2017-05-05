@@ -12,7 +12,7 @@ So this is my 2nd attempt to make that available in Xcode, through Xcode Source 
 
 I want to use framework in the extension, but Xcode keeps complaining about that http://stackoverflow.com/questions/43673353/how-to-use-framework-in-xcode-source-editor-extension
 
-I use [GifCapture](https://github.com/onmyway133/GifCapture) to capture the gif
+I use [GifCapture](https://github.com/onmyway133/GifCapture) to capture the gif. Here I use key binding `Cmd+Ctrl+S` to toggle color info
 
 ![](Screenshots/demo.gif)
 
