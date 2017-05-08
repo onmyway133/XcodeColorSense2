@@ -4,6 +4,8 @@
 
 ## Story
 
+**What is that hex color? 🤔**
+
 All my apps use hex color now. But when browsing the source code, it's hard to know which color it is, I normally need an app or go to Chrome to checkout the color, I want to do that within Xcode
 
 That's why I made [XcodeColorSense](https://github.com/onmyway133/XcodeColorSense), which shows us the color for a particular hex or rgb color. But from Xcode 8+ it is not possible to have Xcode plugin.
